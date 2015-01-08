@@ -59,14 +59,7 @@ alias ls='/bin/ls -FG'
 alias grep='grep --color=auto'
 alias reload='source ~/.bash_profile'
 
-source ~/git-completion.bash
-# define the pair function
-#source "$HOME/.pair"
-# quietly set the previous pairing state
-#pair -q
-#eval "$(~/subs/moz/bin/moz init -)"
-
-#grep with color
+source ~/.git-completion.bash
 
 #git autocomplete
 if [ -f ~/.git-completion.bash ]; then
