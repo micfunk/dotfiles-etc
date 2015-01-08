@@ -1,11 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/Users/Mic/devops/vagrant-nginx-wordpress-puppet'
-let g:netrw_dirhist_2='/Users/Mic/localhost/storyfirst'
-let g:netrw_dirhist_3='/Users/Mic/devops/env'
-let g:netrw_dirhist_4='/Users/Mic/devops/vagrant-chef-berkshelf-demo'
-let g:netrw_dirhist_5='/Users/Mic/devops'
-let g:netrw_dirhist_6='/Users/Mic/devops/vagrant-chef-nginx-php_fpm'
-let g:netrw_dirhist_7='/Users/mic/Dev/festivity-design'
-let g:netrw_dirhist_8='/Users/mic'
-let g:netrw_dirhist_9='/Users/mic/Dev/festivity-design'
+let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_1='/Users/mic/.dotfiles'

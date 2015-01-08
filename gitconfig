@@ -9,6 +9,8 @@
   ap = add -p
   br = branch -vv
   co = checkout
+  aa = add --all
+  cm = commit -m
 [user]
 	name = Mic Funk
 	email = mic@bendyworks.com
