@@ -1,0 +1,21 @@
+[push]
+  default = upstream
+[color]
+	ui = true
+[alias]
+  st = status -s
+  put = push origin HEAD -u
+  c = commit
+  ap = add -p
+  br = branch -vv
+  co = checkout
+[user]
+	name = Mic Funk
+	email = mic@bendyworks.com
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+[core]
+	editor = /usr/bin/vim
+[color]
+  ui = auto
