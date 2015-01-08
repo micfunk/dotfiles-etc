@@ -21,3 +21,5 @@
 	editor = /usr/bin/vim
 [color]
   ui = auto
+[branch]
+	autosetuprebase = always
