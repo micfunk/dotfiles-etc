@@ -39,15 +39,17 @@ txtrst='\e[0m'    # Text Reset
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && . "$HOME/.rvm/scripts/rvm" # Load RVM function
 
+export MAMP_PHP=/Applications/MAMP/bin/php/php5.6.2/bin
+export PATH="$MAMP_PHP:$PATH"
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 alias g='git'
 alias pgup='pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start'
 alias proj='cd /Projects/Bendyworks/'
-alias hosts='subl /private/etc/hosts'
+alias hosts='st /private/etc/hosts'
 alias bp='vi ~/.bash_profile'
-alias httpdconf='subl /Applications/MAMP/conf/apache/extra/httpd-vhosts.conf'
-alias st='/Applications/Sublime\ Text.app'
+alias httpdconf='st /Applications/MAMP/conf/apache/extra/httpd-vhosts.conf'
+alias st='/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl'
 alias simple='python -m SimpleHTTPServer 8000'
 alias dev='cd /Users/Mic/Dropbox/Mic/dev'
 alias localhost='cd /Users/Mic/localhost/'
@@ -56,9 +58,18 @@ alias amfam="cd Dropbox/American\ Family/Captivate\ Modules\ Production/apps"
 alias elastic-up='elasticsearch -f -D es.config=/usr/local/opt/elasticsearch/config/elasticsearch.yml'
 alias mongo-up='mongod'
 alias ls='/bin/ls -FG'
+alias la='ls -a'
 alias grep='grep --color=auto'
 alias reload='source ~/.bash_profile'
-
+alias v="vagrant"
+alias vu="v up"
+alias vr="v reload"
+alias vp="v provision"
+alias vd="v destroy"
+alias vup="vu --provision"
+alias vrp="vr --provision"
+alias mamp="open /Applications/MAMP/MAMP.app"
+alias gr="grunt"
 source ~/.git-completion.bash
 
 #git autocomplete
