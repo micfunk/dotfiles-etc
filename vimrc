@@ -41,6 +41,7 @@ set wildmenu wildmode=full wildignore=*.o,*.obj,*.so,*.a,*.py[co],*~,*.hi
 set wildignore+=.sass-cache,node_modules
 set number
 let mapleader = " "
+set guifont=Source\ Code\ Pro\ 15
 
 if has('clipboard')
   set clipboard=unnamed,unnamedplus " make copied text available to the OS' clipboard
@@ -209,8 +210,10 @@ Plug 'shawncplus/phpcomplete.vim'  " PHPComplete
 Plug 'digitaltoad/vim-jade'      " Jade syntax highlighting
 Plug 'jelera/vim-javascript-syntax' " Javascript Syntax Highlighting
 Plug 'slim-template/vim-slim' " Slim highlighting and helpers
+Plug 'bling/vim-airline' " Status tabline
 Plug 'mileszs/ack.vim' " Ack
 call plug#end()
+
 
 runtime macros/matchit.vim " enable matchit, a plugin included with vim
 
